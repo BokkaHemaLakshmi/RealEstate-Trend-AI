@@ -28,7 +28,8 @@ st.markdown(f"""
     .stApp {{
         background: url("{bg_img}");
         background-size: cover;
-font-weight:bold;
+        font-weight:bold;
+        color:#000000;
     }}
     .main-container {{
         background-color: {main_bg};
