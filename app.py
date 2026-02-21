@@ -28,6 +28,7 @@ st.markdown(f"""
     .stApp {{
         background: url("{bg_img}");
         background-size: cover;
+font-weight:bold;
     }}
     .main-container {{
         background-color: {main_bg};
@@ -38,7 +39,7 @@ st.markdown(f"""
         border: 1px solid rgba(255,255,255,0.3);
     }}
     .stButton>button {{
-        background-color: #87CEEB;
+        background-color: lightblue;
         color: white;
         font-weight: bold;
         border-radius: 8px;
@@ -49,7 +50,7 @@ st.markdown(f"""
 # 4. Header with Toggle Button on the Right
 col_title, col_btn = st.columns([4, 1])
 with col_title:
-    st.title("🏙️ Real Estate Price Predictor")
+    st.title("Real Estate Price Predictor")
 with col_btn:
     st.button(f"🌙 {st.session_state.mode} Mode", on_click=toggle_mode)
 
