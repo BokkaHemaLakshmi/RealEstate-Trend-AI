@@ -21,7 +21,7 @@ if st.session_state.mode == 'Dark':
     txt_col = "#ffffff"
 else:
     main_bg = "rgba(240, 248, 255, 0.85)"
-    txt_col = "#01579b"
+    txt_col = "#000000"
 
 st.markdown(f"""
     <style>
