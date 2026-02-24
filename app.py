@@ -26,7 +26,7 @@ else:
 st.markdown(f"""
     <style>
     .stApp {{
-        background: url("{bg_img}");
+        background-color:black;
         background-size: cover;
         font-weight:bold;
         color:#000000;
